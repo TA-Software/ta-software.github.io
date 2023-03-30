@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://ta-software.github.io/Payroll.KioskApp.Package.appinstaller"
-	Version="2.2.2.0" xmlns="http:/schemas.microsoft.com/appx/appinstaller/2018">
+	Version="2.2.2.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 	<MainBundle
 		Name="TaSoftware.Payroll"
 		Version="2.2.2.0"
@@ -40,7 +40,11 @@
 			Version="14.0.30704.0" />
 	</Dependencies>
 	<UpdateSettings>
-		<OnLaunch
-			HoursBetweenUpdateChecks="0" />
-	</UpdateSettings>
+    <OnLaunch
+      HoursBetweenUpdateChecks="0"
+      ShowPrompt="true"
+      UpdateBlocksActivation="true" />
+    <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+    <AutomaticBackgroundTask />
+  </UpdateSettings>
 </AppInstaller>
