@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://ta-software.github.io/Payroll.KioskApp.Package.appinstaller"
-	Version="2.2.2.0" xmlns="http:/schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="2.2.2.0" xmlns="http:/schemas.microsoft.com/appx/appinstaller/2018">
 	<MainBundle
 		Name="TaSoftware.Payroll"
 		Version="2.2.2.0"
